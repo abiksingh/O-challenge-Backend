@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "outDir": "dist",
+    "paths": { "*": ["node_modules/*", "express/*"] },
+    "resolveJsonModule": true,
+    "rootDir": "express",
+    "sourceMap": true,
+    "strict": true,
+    "target": "es2017",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
+  },
+  "include": ["express/*", "express/**/*.ts"],
+  "exclude": ["node_modules"]
+}
