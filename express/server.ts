@@ -1,6 +1,6 @@
 import express from 'express';
 import connectDB from './config/db';
-import userRoutes from '../express/routes/userRoutes';
+import studentRoutes from './routes/studentRoutes';
 
 connectDB();
 
@@ -8,7 +8,7 @@ const app = express();
 
 app.use(express.json());
 
-app.use('/api', userRoutes);
+app.use('/api', studentRoutes);
 
 const PORT = 3000;
 
