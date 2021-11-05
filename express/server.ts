@@ -10,7 +10,7 @@ app.use(express.json());
 
 app.use('/api', studentRoutes);
 
-const PORT = 3000;
+const PORT = 5000;
 
 // start the Express server
 app.listen(PORT, () => {
