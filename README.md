@@ -4,6 +4,7 @@ An app to fetch, add, delete, update, edit students.
 To run the app the steps are given below:
 1. Type "npm install" command in the terminal to install all the dependencies.
 2. Type "npm run server" to run the API
+3. Make sure Node.js is installed and also mongoDB is installed and running locally in your computer.
 
 The App run on localhost:5000
 
